@@ -14,16 +14,16 @@ body {
 
 .stars {
   display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  background-image: url('./images/star.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 16px 16px;
+  background: url('./images/star.svg') no-repeat center / contain;
 }
 
 .stars__star:last-child {
